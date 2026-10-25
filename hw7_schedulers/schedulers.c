@@ -107,7 +107,7 @@ void sjf(process_t p[], int n) {
         completed++;
     }
 
-    printf("\n=== Shortest Job First (SJF) ===\n");
+    printf("\nShortest Job First (SJF)\n");
     print_gantt(order, n);
     print_table(order, n);
 }
